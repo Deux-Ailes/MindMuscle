@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		140758EC297DAE2E00BEC5BF /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140758EB297DAE2E00BEC5BF /* LandingView.swift */; };
+		140758EE297DAE5800BEC5BF /* ExerciseSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140758ED297DAE5800BEC5BF /* ExerciseSelectionView.swift */; };
+		140758F0297DAF3000BEC5BF /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140758EF297DAF3000BEC5BF /* Row.swift */; };
+		140758F2297DCC3E00BEC5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140758F1297DCC3E00BEC5BF /* LaunchScreen.storyboard */; };
 		142793F5297C072200A25714 /* MindMuscleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142793F4297C072200A25714 /* MindMuscleApp.swift */; };
 		142793F7297C072200A25714 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142793F6297C072200A25714 /* ContentView.swift */; };
 		142793F9297C072300A25714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 142793F8297C072300A25714 /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		140758EB297DAE2E00BEC5BF /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		140758ED297DAE5800BEC5BF /* ExerciseSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSelectionView.swift; sourceTree = "<group>"; };
+		140758EF297DAF3000BEC5BF /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		140758F1297DCC3E00BEC5BF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		142793F1297C072200A25714 /* MindMuscle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindMuscle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		142793F4297C072200A25714 /* MindMuscleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindMuscleApp.swift; sourceTree = "<group>"; };
 		142793F6297C072200A25714 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +106,10 @@
 				142793F6297C072200A25714 /* ContentView.swift */,
 				142793F8297C072300A25714 /* Assets.xcassets */,
 				142793FA297C072300A25714 /* Preview Content */,
+				140758EB297DAE2E00BEC5BF /* LandingView.swift */,
+				140758ED297DAE5800BEC5BF /* ExerciseSelectionView.swift */,
+				140758EF297DAF3000BEC5BF /* Row.swift */,
+				140758F1297DCC3E00BEC5BF /* LaunchScreen.storyboard */,
 			);
 			path = MindMuscle;
 			sourceTree = "<group>";
@@ -231,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				140758F2297DCC3E00BEC5BF /* LaunchScreen.storyboard in Resources */,
 				142793FC297C072300A25714 /* Preview Assets.xcassets in Resources */,
 				142793F9297C072300A25714 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				140758EC297DAE2E00BEC5BF /* LandingView.swift in Sources */,
 				142793F7297C072200A25714 /* ContentView.swift in Sources */,
 				142793F5297C072200A25714 /* MindMuscleApp.swift in Sources */,
+				140758F0297DAF3000BEC5BF /* Row.swift in Sources */,
+				140758EE297DAE5800BEC5BF /* ExerciseSelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
